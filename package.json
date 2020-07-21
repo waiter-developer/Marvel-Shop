@@ -1,0 +1,19 @@
+{
+  "name": "object-of-marvel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waiter-developer/Marvel-Shop.git"
+  },
+  "author": "Yatsunenko Anatolii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waiter-developer/Marvel-Shop/issues"
+  },
+  "homepage": "https://github.com/waiter-developer/Marvel-Shop#readme"
+}
