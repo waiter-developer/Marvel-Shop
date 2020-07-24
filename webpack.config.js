@@ -42,11 +42,16 @@ module.exports = {
                 {
                     from: path.resolve(__dirname, 'src/Marvel.ico'),
                     to: path.resolve(__dirname, 'dist')
+                },
+                {
+                    from: path.resolve(__dirname, 'src/bootstrap.min.css'),
+                    to: path.resolve(__dirname, 'dist')
                 }
             ]
         }),
         new MiniCssExtractPlugin({
             filename: 'bundle.[hash].css'
+
         })
     ],
     module: {

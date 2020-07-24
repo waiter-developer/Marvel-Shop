@@ -1,0 +1,51 @@
+@import "configs"
+
+.marvel_collections_promo
+  position: relative
+  margin-bottom: 2rem
+  max-width: 1120px
+  min-height: 500px
+  background-color: $gray-200
+  background-image: url("https://i.pinimg.com/originals/f1/b3/44/f1b344588a6e97bd4cafc7e7986c7e6d.jpg")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  border-radius: 20px
+  box-shadow: 0 0 15px 10px black
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(0, 0, 0, 0.22)
+    border-radius: inherit
+    z-index: 1
+
+
+.marvel_collections_cards
+  margin: 2rem
+  padding: 2rem
+  background-color: black
+  border-radius: 20px
+  .collections_cards_item
+    img
+      width: inherit
+      height: inherit
+      border-radius: 1rem
+      &:hover
+        cursor: pointer
+        outline: 1px solid white
+        border-radius: inherit
+    &:nth-last-of-type(even)
+      margin-bottom: 1rem
+
+
+
+
+
+
+
+
+
