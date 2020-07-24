@@ -1,5 +1,5 @@
-import './module'
-import './sass/index.sass'
-console.log('hello world !!')
 
+import './sass/index.sass'
+
+console.log('hello world !!')
 
