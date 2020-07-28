@@ -12,7 +12,7 @@ const isDev = !isProd
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
-    entry: ['@babel/polyfill','./index.js'],
+    entry: [ '@babel/polyfill','./index.js'],
     output: {
         filename: 'bundle.[hash].js',
         path: path.resolve(__dirname, 'dist')
@@ -76,7 +76,8 @@ module.exports = {
                 loader: {
                     loader: 'babel-loader',
                     options: {
-                        presets :['@babel/preset-env']
+                        presets :['@babel/preset-env'],
+                        plugins: [ '@babel/plugin-proposal-class-properties','@babel/plugin-syntax-class-properties', '@babel/plugin-transform-runtime']
                     }
                 }
             }
