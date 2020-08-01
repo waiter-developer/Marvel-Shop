@@ -42,7 +42,7 @@
 
     &:focus
       outline: none
-      box-shadow: 0 0 10px 2px red
+      box-shadow: 0 0 10px 2px whitesmoke
 
   .promo_search_result
     padding: 1rem
@@ -58,14 +58,34 @@
   background-color: black
   border-radius: 20px
   .collections_cards_item
-    img
+    position: relative
+    overflow: auto
+    &:before
+      content: attr(data-hero-name)
+      position: absolute
+      top: 50%
+      left: 50%
+      margin-left: -50%
+      width: inherit
+      height: 100px
+      background: #ff0000
+      font-size: 28px
+      vertical-align: center
+      line-height: 1.7
+      text-align: center
+      color: white
+      z-index: 1
+    .cards_item--img
       width: inherit
       height: inherit
       border-radius: 1rem
+      transition-duration: 0.5s
+
+
       &:hover
         cursor: pointer
-        outline: 1px solid white
-        border-radius: inherit
+        box-shadow: 0 0 15px 2px white
+
     &:nth-last-of-type(even)
       margin-bottom: 1rem
 

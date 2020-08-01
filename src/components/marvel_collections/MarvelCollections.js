@@ -15,6 +15,8 @@ export class MarvelCollections extends MarvelComponent{
         'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQohu73PI3w-oxlnNHoG_Ba5kqX-gcvEe32tQ&usqp=CAU',
         'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQohu73PI3w-oxlnNHoG_Ba5kqX-gcvEe32tQ&usqp=CAU'
     ]
+
+
     render() {
         return`
             <div class="marvel_collections">
@@ -30,7 +32,7 @@ export class MarvelCollections extends MarvelComponent{
                 <div class="marvel_collections_cards">
                     <div class="collections_cards_items">
                         <div class="row row-cols-1 row-cols-2 row-cols-4 ">
-                            ${renderCollections(this.collectionCards)}
+                            ${ renderCollections(this.collectionCards) }
                         </div>
                     </div>
                 </div>
@@ -39,4 +41,6 @@ export class MarvelCollections extends MarvelComponent{
         `
     }
 }
+
+
 

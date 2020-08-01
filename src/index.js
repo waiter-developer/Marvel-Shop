@@ -4,7 +4,7 @@ import {MarvelPersonalDetails} from "./components/marvel_personal_details/Marvel
 import {MarvelShop} from "./components/marvel_shop/MarvelShope";
 
 import './sass/index.sass'
-import {renderCollections} from "./components/marvel_collections/renderCollections";
+
 
 
 
