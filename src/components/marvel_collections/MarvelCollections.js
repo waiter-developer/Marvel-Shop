@@ -31,13 +31,13 @@ export class MarvelCollections extends MarvelComponent{
                     </div>
                 <div class="marvel_collections_cards">
                     <div class="collections_cards_items">
-                        <div class="row row-cols-1 row-cols-2 row-cols-4 ">
+                        <div class="row row-cols-1 row-cols-2 row-cols-4">
                             ${ renderCollections(this.collectionCards) }
                         </div>
                     </div>
                 </div>
         
-            </div>
+            </div>  
         `
     }
 }

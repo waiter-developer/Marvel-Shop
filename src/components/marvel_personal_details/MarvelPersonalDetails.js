@@ -2,6 +2,11 @@ import {MarvelComponent} from "../core/MarvelComponent";
 
 export class MarvelPersonalDetails extends MarvelComponent{
 
+
+
+
+
+
     render() {
         return `
             <div class="marvel_personal_details">
@@ -18,11 +23,11 @@ export class MarvelPersonalDetails extends MarvelComponent{
                                           </span>
                     </li>
                     <li>
-                        <span class="intro_list--title" >Description:</span>   <span>​
+                        <span class="intro_list--title" >Description:</span>   <span>
                                                         He was born Kal-El on the planet Krypton, before being rocketed to
                                                         Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...
                                                     </span>
-                    </li>
+                    </li>   
                     <li>
                         <span class="intro_list--title" > Superpowers:</span> <span>
                                                         Solar energy absorption and healing factor, solar flare and heat vision,
